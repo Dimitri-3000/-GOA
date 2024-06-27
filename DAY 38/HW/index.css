@@ -1,0 +1,19 @@
+.navig{
+    display: flex;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+.boody{
+    display: flex;
+    justify-content: center;
+}
+
+.photo{
+    width: 20px;
+    height: 20px;
+
+}
