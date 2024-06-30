@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.hehe{
+    width: 400px;
+    height: 400px;
+    border: solid red 5px;
+    border-radius: 50%;
+    background-color: aquamarine;
+
+    /* დავალება 2 */
+
+    margin-top: 120px;
+    margin-left: 550px;
+
+
+
+
+}
