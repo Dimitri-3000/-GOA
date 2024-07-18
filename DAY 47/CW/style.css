@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+.divebi{
+    padding-top: 100px;
+}
+
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: solid 4px red;
+    background-color: aquamarine;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    background-color:rgb(135, 135, 217);
+    
+
+
+
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+}
+
+ul h1{
+    font-size:6cap;
+    color: aliceblue;
+}
+
+
+ul{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+.liebi{
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+li{
+    list-style: none;
+    color: aliceblue;
+}
+
+
+button, a{
+    text-decoration: none;
+    font-size: 20px;
+    color:rgb(255, 0, 0);
+    
+    
+    
+
+}
+
+button:hover{
+    background-color: rgb(255, 0, 0);
+    color:chartreuse;
+    
+}
+
+a:hover{
+   color:chartreuse;
+    
+}
+
+
+
+
+
+button{
+    border-radius: 10%;
+    border: none;
+    background-color: aliceblue;
+    width: 100px;
+    height: 50px;
+    transition: 0.24s;
+    cursor: pointer;
+    border: solid 3px red;
+
+}
