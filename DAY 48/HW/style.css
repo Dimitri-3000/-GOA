@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+h1{
+    color: rgb(113, 11, 113);
+    font-weight: bold;
+}
+
+.profili{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(0, 255, 162);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.wrapper{
+    height: 550px;
+    width: 1060px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.zeda{
+    display: flex;
+    justify-content: space-between;
+}
+
+.zedamarjvniv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+    margin-top: 35px;
+}
+
+.zedamarcxniv h1{
+    font-size: 45px;
+}
+
+.zedamarcxniv p{
+    margin-top: 25px;
+    color: rgb(47, 41, 41);
+}
+
+
+.star1{
+    height: 55px;
+    width: 400px;
+    background-color: rgb(244, 236, 253);
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 60px;
+}
+
+.star2{
+    height: 55px;
+    width: 400px;
+    background-color: rgb(244, 236, 253);
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 30px;
+}
+
+.star3{
+    height: 55px;
+    width: 400px;
+    background-color: rgb(244, 236, 253);
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 60px;
+}
+
+.var{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: gold;
+}
+
+.varskvlavebi{
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+
+}
+
+.star1, .star2, .star3 h4{
+    color: rgb(113, 11, 113);
+}
+
+
+.qveda{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ia1{
+    width: 330px;
+    height: 210px;
+    background-color: rgb(113, 11, 113);
+    color: aliceblue;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.ia2{
+    width: 330px;
+    height: 210px;
+    background-color: rgb(113, 11, 113);
+    color: aliceblue;
+    border-radius: 10px;
+    margin-top: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.ia3{
+    width: 330px;
+    height: 210px;
+    background-color: rgb(113, 11, 113);
+    color: aliceblue;
+    border-radius: 10px;
+    margin-top: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.i{
+    height: 135px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.izevit{
+    display: flex;
+
+}
+
+.saxelebi{
+    margin-left: 20px;
+}
+
+
