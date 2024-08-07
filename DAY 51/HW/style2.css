@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 150px;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    
+    align-items: center;
+
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.wre{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.liebi{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    text-decoration: none;
+    color: red;
+    list-style: none;
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 150px;
+    
+    
+}
