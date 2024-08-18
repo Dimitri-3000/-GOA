@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    display: flex;
+   
+    align-items: center;
+    flex-direction: column;
+    
+}
+.batonebi{
+    display: flex;
+    justify-content: space-around;
+
+    width: 1000px;
+    margin-top: 70px;
+
+}
+
+button{
+    height: 100px;
+    width: 200px;
+    border: solid 4px red;
+    background-color: aquamarine;
+}
+
+p{
+    margin-top: 50px;
+    color: rgb(0, 255, 8);
+    font-weight: 900;
+    font-size: xx-large;
+    
+}
+h1{
+    color: red;
+}
