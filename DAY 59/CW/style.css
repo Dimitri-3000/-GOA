@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.divi{
+    height: 100px;
+    width: 200px;
+    
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 150px;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+
+.text{
+    border: none;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 5px;
+    height: 150px;
+    
+}
+
+.box{
+    border: 2px solid rgb(163, 163, 255);
+    height: 50px;
+    width: 60px;
+}
+
+.tvla{
+    display: flex;
+    
+}
+
+
+.password{
+    border: 2px solid rgb(240, 100, 100);
+}
