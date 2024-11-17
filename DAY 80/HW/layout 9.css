@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    width:150px;
+    height:200px;
+    border: 2px solid rgb(0, 0, 0);
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    
+    
+    
+}
+
+.item1{
+    border: 3px solid aqua;
+    background-color: rgb(90, 212, 90);
+}
+
+.item2{
+    border: 3px solid rgb(255, 0, 0);
+    
+}
+.item3{
+    border: 3px solid rgb(0, 208, 255);
+    
+}
+
+.item4{
+    border: 3px solid rgb(255, 0, 0);
+}
+
+.item5{
+    border: 3px solid rgb(0, 208, 255);
+    
+}
+
+.item6{
+    border: 3px solid rgb(255, 0, 0);
+}
+
+.item7{
+    border: 3px solid rgb(0, 208, 255);
+    
+}
+
+.item8{
+    border: 3px solid rgb(255, 0, 0);
+}
+
+.item9{
+    border: 3px solid rgb(0, 208, 255);
+    
+}
+
+
+.item10{
+    border: 3px solid aqua;
+    background-color: rgb(90, 212, 90);
+}
+
+.item11{
+    border: 3px solid rgb(255, 0, 0);
+    
+}
+.item12{
+    border: 3px solid rgb(0, 208, 255);
+    
+}
+
+.item13{
+    border: 3px solid rgb(255, 0, 0);
+}
+
+.item14{
+    border: 3px solid rgb(0, 208, 255);
+    
+}
+
+.item15{
+    border: 3px solid rgb(255, 0, 0);
+}
+
+.item16{
+    border: 3px solid rgb(0, 208, 255);
+    
+}
+
