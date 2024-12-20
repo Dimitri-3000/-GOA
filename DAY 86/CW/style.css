@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    width: 100%;
+    height: 100%;
+
+}
+
+.back{
+    background-color: rgb(226, 255, 255);
+    width: 100%;
+    height: 295px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.foni{
+    width: 380px;
+    height: 260px;
+    background-color: rgb(215, 236, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mtavari{
+    width: 210px;
+    height: 170px;
+    background-color: rgb(255, 255, 255);
+    border-bottom-right-radius: 30%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.zeda{
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    width: 70%;
+    justify-content: center;
+    
+}
+
+
+
+
+.dmy{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgb(255, 255, 255);
+    width: 140px;
+    margin-left: 10px;
+    font-size: xx-small;
+    color: rgb(93, 94, 94);
+
+
+}
+
+.b{
+    margin-left: 38.5px;
+}
+
+.c{
+    margin-left: 26.5px;
+}
+    
+input{
+    width: 40px;
+    height: 18px;
+    margin-left: 10px;
+    border: 0.1px solid rgb(181, 181, 181);
+    border-radius: 1.5px;
+    
+    outline: none;
+}
+.inputebi{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.qveda{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    border: 1px solid rgb(151, 148, 148);
+    border-bottom-style:none;
+    border-left-style:none;
+    border-right-style:none;
+    width: 160px;
+}
+
+.ii{
+    display: flex;
+}
+
+.col{
+    color: rgb(158, 45, 244)
+}
+
+.wre{
+    width: 20px;
+    height: 20px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    
+}
+.horizonti{
+    display: flex;
+    
+}
