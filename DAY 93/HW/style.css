@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    
+
+}
+.kvadrati{
+    aspect-ratio: 1;
+    width: 50px;
+    background-color: aquamarine;
+}
+
+.wre{
+    aspect-ratio: 1;
+    width: 50px;
+    background-color: rgb(101, 74, 255);
+    clip-path: circle(50% at 50% 50%);
+}
+
+.martkutxedi{
+    aspect-ratio: 2/1;
+    height: 50px;
+    background-color: blue;
+}
+
+.samk{
+    clip-path:polygon(0% 100%, 50% 0%, 100% 100%);
+    background-color: brown;
+    width: 100px;
+   
+}
+
+.xut{
+    clip-path: polygon(0% 100%, 0% 50%, 50% 0%, 100% 50%, 100% 100%);
+    background-color: blueviolet;
+    width: 60px;
+}
+
+.oval{
+    width: 100px;
+    clip-path: ellipse(50% 20% at 50% 50%);
+    background-color:aquamarine;
+}
+
+.star{
+    width: 100px;
+    background-color: gold;
+    clip-path: polygon(48% 0%, 33% 37%, 0% 51%, 34% 55%, 22% 100%, 47% 60%, 67% 99%, 61% 54%, 99% 47%, 58% 35%);
+
+}
+
+
+
