@@ -1,0 +1,47 @@
+
+/* css battle */
+
+<div id="div1"></div>
+<div id="div2"></div>
+<div id="circle"></div>
+<div id="circle_mini"></div>
+
+
+
+<style>
+  body{
+    background-color: #6592CF;
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+  #div1{
+    background-color: #243D83;
+    width: 150px;
+    height: 272px;
+    position: absolute;
+  }
+  #div2{
+    background-color: #243D83;
+    width: 320px;
+    height: 150px;
+    position: absolute;
+  }
+
+  #circle{
+    width: 240px;
+    aspect-ratio: 1/1;
+    background-color: #6592CF;
+    position: absolute;
+    border-radius: 50%;
+  }
+
+  #circle_mini{
+    width: 50;
+    aspect-ratio: 1/1;
+    background-color: #243D83;
+    position: absolute;
+    border-radius: 50%;
+    
+  }
+</style>
