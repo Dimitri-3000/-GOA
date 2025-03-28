@@ -1,0 +1,44 @@
+/* css battle */
+
+<div id="squere"></div>
+<div id="line1"></div>
+<div id="line2"></div>
+<div id="wow"></div>
+
+
+<style>
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    background-color: #75CF34;
+    
+  }
+
+  
+  #squere{
+    width: 120px;
+    height: 100px;
+    background-color: #963032;
+    position: absolute;
+  }
+
+  #line1{
+    width: 40px;
+    height: 140px;
+    background-color: #963032;
+  }
+
+  #line2{
+    width: 40px;
+    height: 140px;
+    background-color:#963032;
+  }
+  #wow{
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    background-color:#75CF34;
+  }
+</style>
